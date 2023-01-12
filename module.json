@@ -1,144 +1,134 @@
 {
-	"id": "StarPonyFinder",
-	"title": "Ponyfinder for Starfinder Conversion",
-	"description": "A conversion for the Foundry VTT system. Licenced under the OGL 1.0(a)",
-	"authors": [
-		{
-			"name": "Teraunce",
-			"email": "Teraunce@gmail.com"
-		},
-		{
-			"name": "David Silver"
-		}
-	],
-	"version": "0.9.0",
-	"compatibility": {
-		"minimum": "9",
-		"verified": "10"
-	},
-	"manifest": "https://github.com/Teraunce/StarPonyFinder/blob/main/module.json",
-	"download": "https://github.com/Teraunce/StarPonyFinder/releases/download/release/StarPonyFinder.zip",
-	"changelog": "https://github.com/Teraunce/StarPonyFinder/blob/main/changelog.md",
-	"packs": [
-		{
-			"label": "PonyFinder Races",
-			"type": "Item",
-			"name": "ponyfinder-races",
-			"path": "packs/ponyfinder-races.db",
-			"system": "sfrpg",
-			"private": false,
-			"flags": {},
-			"index": []
-		},
-		{
-			"label": "Ponyfinder Racial Stuff",
-			"type": "Item",
-			"name": "ponyfinder-racial-stuff",
-			"path": "packs/ponyfinder-racial-stuff.db",
-			"system": "sfrpg",
-			"private": false,
-			"flags": {},
-			"index": []
-		},
-		{
-			"label": "Ponyfinder Gods",
-			"type": "Item",
-			"name": "ponyfinder-gods",
-			"path": "packs/ponyfinder-gods.db",
-			"system": "sfrpg",
-			"private": false,
-			"flags": {},
-			"index": []
-		},
-		{
-			"label": "Ponyfinder Equipment",
-			"type": "Item",
-			"name": "ponyfinder-equipment",
-			"path": "packs/ponyfinder-equipment.db",
-			"system": "sfrpg",
-			"private": false,
-			"flags": {},
-			"index": []
-		},
-		{
-			"label": "PonyFinder Feats",
-			"type": "Item",
-			"name": "ponyfinder-feats",
-			"path": "packs/ponyfinder-feats.db",
-			"system": "sfrpg",
-			"private": false,
-			"flags": {},
-			"index": []
-		},
-		{
-			"label": "Ponyfinder Starship",
-			"type": "Item",
-			"name": "ponyfinder-starship",
-			"path": "packs/ponyfinder-starship.db",
-			"system": "sfrpg",
-			"private": false,
-			"flags": {},
-			"index": []
-		},
-		{
-			"label": "Ponyfinder Themes",
-			"type": "Item",
-			"name": "ponyfinder-themes",
-			"path": "packs/ponyfinder-themes.db",
-			"system": "sfrpg",
-			"private": false,
-			"flags": {},
-			"index": []
-		},
-		{
-			"label": "Ponyfinder Tables",
-			"type": "RollTable",
-			"name": "ponyfinder-tables",
-			"path": "packs/ponyfinder-tables.db",
-			"system": "sfrpg",
-			"private": false,
-			"flags": {},
-			"index": []
-		},
-		{
-			"label": "PonyFinder Class Features",
-			"type": "Item",
-			"name": "ponyfinder-class-features",
-			"path": "packs/ponyfinder-class-features.db",
-			"system": "sfrpg",
-			"private": false,
-			"flags": {},
-			"index": []
-		},
-		{
-			"label": "Ponyfinder Classes",
-			"type": "Item",
-			"name": "ponyfinder-classes",
-			"path": "packs/ponyfinder-classes.db",
-			"system": "sfrpg",
-			"private": false,
-			"flags": {},
-			"index": []
-		},
-		{
-			"label": "Ponyfinder Journals",
-			"type": "JournalEntry",
-			"name": "ponyfinder-journals",
-			"path": "packs/ponyfinder-journals.db",
-			"system": "sfrpg",
-			"private": false,
-			"flags": {},
-			"index": []
-		},
-		{
-			"label": "Ponyfinder Spells",
-			"type": "Item",
-			"name": "ponyfinder-spells",
-			"path": "packs/ponyfinder-spells.db",
-			"system": "sfrpg",
-			"private": false,
-			"flags": {},
-			"index": []
-		}
-	]
+  "id": "StarPonyFinder",
+  "title": "Ponyfinder for Starfinder Conversion",
+  "description": "A conversion for the Foundry VTT system. Licenced under the OGL 1.0(a)",
+  "authors": [
+    {
+      "name": "Teraunce",
+      "email": "Teraunce@gmail.com",
+      "flags": {}
+    },
+    {
+      "name": "David Silver",
+      "flags": {}
+    }
+  ],
+  "version": "0.9.0",
+  "compatibility": {
+    "minimum": "9",
+    "verified": "10"
+  },
+  "manifest": "https://github.com/Teraunce/StarPonyFinder/blob/main/module.json",
+  "download": "https://github.com/Teraunce/StarPonyFinder/releases/download/release/StarPonyFinder.zip",
+  "changelog": "https://github.com/Teraunce/StarPonyFinder/blob/main/changelog.md",
+  "packs": [
+    {
+      "label": "PonyFinder Races",
+      "type": "Item",
+      "name": "ponyfinder-races",
+      "path": "packs/ponyfinder-races.db",
+      "system": "sfrpg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Ponyfinder Racial Stuff",
+      "type": "Item",
+      "name": "ponyfinder-racial-stuff",
+      "path": "packs/ponyfinder-racial-stuff.db",
+      "system": "sfrpg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Ponyfinder Gods",
+      "type": "Item",
+      "name": "ponyfinder-gods",
+      "path": "packs/ponyfinder-gods.db",
+      "system": "sfrpg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Ponyfinder Equipment",
+      "type": "Item",
+      "name": "ponyfinder-equipment",
+      "path": "packs/ponyfinder-equipment.db",
+      "system": "sfrpg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "PonyFinder Feats",
+      "type": "Item",
+      "name": "ponyfinder-feats",
+      "path": "packs/ponyfinder-feats.db",
+      "system": "sfrpg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Ponyfinder Starship",
+      "type": "Item",
+      "name": "ponyfinder-starship",
+      "path": "packs/ponyfinder-starship.db",
+      "system": "sfrpg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Ponyfinder Themes",
+      "type": "Item",
+      "name": "ponyfinder-themes",
+      "path": "packs/ponyfinder-themes.db",
+      "system": "sfrpg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Ponyfinder Tables",
+      "type": "RollTable",
+      "name": "ponyfinder-tables",
+      "path": "packs/ponyfinder-tables.db",
+      "system": "sfrpg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "PonyFinder Class Features",
+      "type": "Item",
+      "name": "ponyfinder-class-features",
+      "path": "packs/ponyfinder-class-features.db",
+      "system": "sfrpg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Ponyfinder Classes",
+      "type": "Item",
+      "name": "ponyfinder-classes",
+      "path": "packs/ponyfinder-classes.db",
+      "system": "sfrpg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Ponyfinder Journals",
+      "type": "JournalEntry",
+      "name": "ponyfinder-journals",
+      "path": "packs/ponyfinder-journals.db",
+      "system": "sfrpg",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Ponyfinder Spells",
+      "type": "Item",
+      "name": "ponyfinder-spells",
+      "path": "packs/ponyfinder-spells.db",
+      "system": "sfrpg",
+      "private": false,
+      "flags": {}
+    }
+  ]
 }
