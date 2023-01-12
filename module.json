@@ -4,14 +4,20 @@
 	"description": "A conversion for the Foundry VTT system. Licenced under the OGL 1.0(a)",
 	"authors": [
 		{
-			"name": "Teraunce, David Silver"
+			"name": "Teraunce",
+			"email": "Teraunce@gmail.com"
 		}
+		{
+			"name": "David Silver"
 	],
 	"version": "0.9.0",
 	"compatibility": {
 		"minimum": "9",
 		"verified": "10"
 	},
+	"manifest": "https://github.com/Teraunce/StarPonyFinder/blob/main/module.json",
+	"download": "https://github.com/Teraunce/StarPonyFinder/releases/download/release/StarPonyFinder.zip",
+	"changelog": "https://github.com/Teraunce/StarPonyFinder/blob/main/changelog.md",
 	"packs": [
 		{
 			"label": "PonyFinder Races",
