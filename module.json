@@ -6,9 +6,10 @@
 		{
 			"name": "Teraunce",
 			"email": "Teraunce@gmail.com"
-		}
+		},
 		{
 			"name": "David Silver"
+		}
 	],
 	"version": "0.9.0",
 	"compatibility": {
